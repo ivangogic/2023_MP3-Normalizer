@@ -43,7 +43,7 @@ pub fn finish(&self) {
 }
 
 pub(crate) fn parse_args(args:Vec<String>) -> Task {
-    let mut loudness:f64 = 89.0;
+    let mut loudness:f64 = 83.0;
     let mut paths:HashSet<String> = HashSet::new();
     let mut dest:String = "$$$".to_string();
     let mut num_th:i32 = 1;
